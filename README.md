@@ -67,7 +67,7 @@ GUI 界面实时显示剪贴板占用状态，右键可手动重启/结束占用
 
 | 文件 | 说明 |
 |------|------|
-| `GameViewer剪贴板阻断_OpenClipboard函数修补监控版.bat` | 启动入口 |
+| `GameViewer剪贴板阻断_无UI版.bat` | 启动入口 |
 | `test_BlockGameViewerClipboard.ps1` | 核心脚本 |
 
 纯命令行黑窗口，自动阻断 GameViewer 的 OpenClipboard，适合后台运行。
@@ -100,7 +100,7 @@ GUI 界面实时显示剪贴板占用状态，右键可手动重启/结束占用
 .\UI剪切板监控工具_阻断版.bat
 
 # 版本2 - 黑窗口阻断版
-.\GameViewer剪贴板阻断_OpenClipboard函数修补监控版.bat
+.\GameViewer剪贴板阻断_无UI版.bat
 ```
 
 ### 开机自启动
@@ -144,7 +144,7 @@ OpenClipboard 原始代码              修补后
 │   └── UI监控工具.ps1
 │
 ├── 版本2 — 无UI阻断版
-│   ├── GameViewer剪贴板阻断_OpenClipboard函数修补监控版.bat
+│   ├── GameViewer剪贴板阻断_无UI版.bat
 │   └── test_BlockGameViewerClipboard.ps1
 │
 ├── 版本3 — 有UI阻断版 ✨
